@@ -1,0 +1,12 @@
+
+iframe#mbYTP_bgndVideo {
+    transform: scale(1.91);
+}
+
+.mb_YTPBar .buttonBar {
+    display: none;
+}
+
+.mb_YTPProgress{
+    display: none;
+}

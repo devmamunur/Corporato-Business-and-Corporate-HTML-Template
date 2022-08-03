@@ -1,0 +1,2215 @@
+
+
+/*================================
+color pannel box start
+==================================*/
+
+.spainer_box {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	background: #fff;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	line-height: 62px;
+	border-radius: 0px 5px 5px 0px;
+	box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .2);
+	z-index: 0;
+	color: black;
+	cursor: pointer;
+}
+
+.spainer_box::before {
+	position: absolute;
+	content: "";
+	top: 0px;
+	left: -5px;
+	width: 10px;
+	height: 100%;
+	background: white;
+}
+
+.spainer_box .fa {
+    font-size: 30px;
+}
+
+.pannel_box {
+	width: 200px;
+	height: auto;
+	background: #fff;
+	position: fixed;
+	top: 150px;
+	left: -200px;
+	z-index: 9;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 575px) {
+	.pannel_box {
+		top: 55px;
+	}
+}
+
+@media (max-width: 767px) {
+	.pannel_box {
+		top: 70px;
+	}
+}
+
+.pannel_box .pannel_color_box {
+	width: 100%;
+	height: 100%;
+    padding: 12px 0px 5px;
+}
+
+/*==================================
+pannel box end
+====================================*/
+
+/*===================================
+light and dark mode
+====================================*/
+
+.day_night {
+	margin-top: 0px;
+	float: left;
+}
+
+/*===================================
+light and dark mode end
+====================================*/
+
+.pannel_box .pannel_color_box > ul {
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+
+.pannel_box .pannel_color_box > ul li {
+    display: inline-block;
+
+}
+.pannel_box .pannel_color_box > ul li span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.pannel_box .pannel_color_box > ul li .btn2 {
+	border: 0px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+/* ============== */
+
+.pannel_color_box > li {
+	list-style: none;
+}
+
+.anime_list {
+	line-height: 15px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+.stop_btn {
+	width: 17px;
+	height: 17px;
+	margin-top: 0px;
+	cursor: pointer;
+	border: 1px solid black;
+	position: absolute;
+	bottom: 27px;
+	left: 23px;
+}
+
+.stopanime .start-page-content .page-header .photo {
+	animation: none;
+	border-radius: 5px;
+	border: 3px solid #fff;
+}
+
+/*=============*/
+
+
+/* ===============================================
+pannel box style change button colors area start
+=================================================*/
+
+.pannel_box .pannel_color_box .color1 {
+	background: #e83b35;
+}
+
+.pannel_box .pannel_color_box .color2 {
+	background: #673bb7;
+}
+
+.pannel_box .pannel_color_box .color3 {
+	background: #ff9801;
+}
+
+.pannel_box .pannel_color_box .color4 {
+	background: #acba2f;
+}
+
+.pannel_box .pannel_color_box .color5 {
+	background: #ec407a;
+}
+
+.pannel_box .pannel_color_box .color6 {
+	background: #228B22;
+}
+
+.pannel_box .pannel_color_box .color7 {
+	background: #e8676b;
+}
+
+.pannel_box .pannel_color_box .color8 {
+	background: #2391ff;
+}
+
+.pannel_box .pannel_color_box .color9 {
+	background: #7b276f;
+}
+
+.pannel_box .pannel_color_box .color10 {
+	background: #1f9e75;
+}
+
+.pannel_box .pannel_color_box .color11 {
+	background: #27a79a;
+}
+
+.pannel_box .pannel_color_box .color12 {
+	background: #8dc24c;
+}
+
+.pannel_box .pannel_color_box .color13 {
+	background: #07cb79;
+}
+
+.pannel_box .pannel_color_box .color14 {
+	background: #815166;
+}
+
+.pannel_box .pannel_color_box .color15 {
+	background: #9c27b0;
+}
+
+.pannel_box .pannel_color_box .color16 {
+	background: #d99b3f;
+}
+
+/* ===============================================
+pannel box style change button colors area start
+=================================================*/
+
+/*==============================
+	Day Night MODE  Switcher
+================================*/
+
+.nightmode {
+	display: inline-block;
+	margin-right: 0px;
+	cursor: pointer;
+	color: black;
+	padding-bottom: 13px;
+	width: 93px;
+	z-index: 99;
+}
+
+
+.daymode {
+	display: inline-block;
+	width: 93px;
+	cursor: pointer;
+	color: black;
+	padding-bottom: 14px;
+	z-index: 99;
+}
+
+.line1 {
+	height: 1px;
+	display: block;
+	background: black;
+	text-align: left;
+	position: absolute;
+	width: 90%;
+	left: 5%;
+    top: 49px;
+
+}
+
+.line2 {
+	height: 6px;
+	width: 50%;
+	position: absolute;
+	background: black;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+	top: -3px;
+}
+
+.line2_left {
+	-webkit-animation: animeline2left .8s linear;
+	-moz-animation: animeline2left .8s linear;
+	-o-animation: animeline2left .8s linear;
+	-ms-animation: animeline2left .8s linear;
+	animation: animeline2left .8s linear;
+}
+
+@keyframes animeline2left {
+	0% {
+		right: 0%;
+	}
+	20% {
+		right: 20%;
+	}
+	40% {
+		right: 40%;
+	}
+	60% {
+		right: 60%;
+	}
+	80% {
+		right: 80%;
+	}
+	100% {
+		left: 0px;
+	}
+
+}
+
+.line2_right {
+	-webkit-animation: animeline2right .7s linear;
+	-moz-animation: animeline2right .7s linear;
+	-o-animation: animeline2right .7s linear;
+	-ms-animation: animeline2right .7s linear;
+	animation: animeline2right .7s linear;
+	right: 0px;
+}
+
+@keyframes animeline2right {
+	0% {
+		left: 0%;
+	}
+	30% {
+		left: 20%;
+	}
+	60% {
+		left: 40%;
+	}
+	80% {
+		left: 50%;
+	}
+	100% {
+		right: 0px;
+	}
+}
+
+
+
+
+/* =========================================
+New Color
+=========================================== */
+
+
+
+
+
+/* ==========================
+dark Color
+============================= */
+
+.night,
+.night #service .s-item,
+.night #pricing .card,
+.night #pricing .card .list-group-item,
+.night #pricing .card .card-header,
+.night .blog_box .content,
+.night .purchase.purchase2,
+.night #consult,
+.night .card-body,
+.night .theme-footer-one .bottom-footer,
+.night .nav-item.dropdown:hover .dropdown-menu
+{
+    background: #27292e;
+}
+.night h2,
+.night .section-heading,
+.night #accordion .card .btn-link,
+.night #service .s-item h4,
+.night #service .modal h3,
+.night #service .modal h4,
+.night #testimonial .client-name>h5,
+.night #gallery h2,
+.night #team .team_slider_item h4,
+.night #team .team_slider_item_info ul li a i,
+.night #pricing .display-2,
+.night #pricing .card .card-title,
+.night #counter .single_counter h2,
+.night .blog_box h3 a,
+.night .consultation-form .form-wrapper h3,
+.night .sidebar .sidebar-widget h4,
+.night .sidebar .recent-posts-widget .recent-post-description h3 a,
+.night .single-blog .blog-box h3,
+.night .pagination li a:hover,
+.night .comments-container .comments-list li .comment h4
+{
+    color: #fff;
+}
+.night p,
+.night nav.navbar-fixed ul li a,
+.night .card-body,
+.night #service .s-item a,
+.night .protfolio-filter li,
+.night #testimonial .client-description>p,
+.night #testimonial .client-name>p,
+.night #gallery .modal-header .close,
+.night .modal-header .close,
+.night #pricing .card .list-group-item,
+.night .blog_box .extra ul li a,
+.night .blog_box .extra ul li a i,
+.night .theme-form-one input, 
+.night .theme-form-one textarea,
+.night #counter .single_counter p,
+.night .pagination>li>a,
+.night .pagination>li>a i,
+.night .sidebar .categories-widget ul li a,
+.night .sidebar .recent-posts-widget .recent-post-description h6,
+.night .sidebar .archives-widget ul li a,
+.night .sidebar .tags-widget ul li a,
+.night .sidebar .meta-widget ul li a,
+.night .blogs .form-control,
+.night .nav-item.dropdown:hover .dropdown-menu .dropdown-item,
+.night .blogs .blog-box .blog-details .meta li a
+{
+    color: #f1f1f1;
+}
+.night .purchase,
+.night nav.navbar-fixed,
+.night .modal-content,
+.night #testimonial,
+.night .card-header,
+.night #pricing,
+.night .blog,
+.night #market-place,
+.night .consultation-form .form-wrapper,
+.night .consultation-form .bg-white,
+.night .theme-form-one input, 
+.night .theme-form-one .form-control,
+.night .theme-form-one input, 
+.night .theme-form-one textarea,
+.night .theme-footer-one .top-footer,
+.night .blog_box .content,
+.night .sidebar .categories-widget ul li a,
+.night .sidebar .tags-widget ul li a,
+.night blockquote,
+.night .pagination li a:hover,
+.night .pagination li.active a,
+.night .comments-container .comments-list li
+{
+    background: #35363b;
+}
+
+.night #accordion .card {
+    border: 0px;
+    box-shadow: 0px 0px 30px 3px rgba(6, 6, 6, 0.11);
+}
+
+
+.night #service,
+.night .blogs .form-control
+{
+    background-color: #35363b;
+}
+.night .portfolioFilter-menu.food-menu-list-menu {
+    border-top: 1px solid rgba(241, 241, 241, 0.5);
+    border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+}
+.night .modal-header{
+    border-bottom: 1px solid rgba(241, 241, 241, 0.5);   
+}
+.night .modal-footer{
+    border-top: 1px solid rgba(241, 241, 241, 0.5);   
+}
+.night #testimonial .slick-slide img{
+    border: 4px solid #27292e;
+}
+
+.night #team .team_slider_item .t-box {
+    background: rgba(53, 54, 59, 0.7);
+}
+.night #team .team_slider_item{
+    border: none;
+}
+.night .consultation-form .main-content
+ {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.20);
+}
+
+.night .nav-item.dropdown:hover .dropdown-menu
+ {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.20);
+}
+
+.night .bg-white{
+    background: #35363b!important;
+}
+.night section.all_blogs.blogs.bg-white,
+.night section.single-blog.blogs.bg-white
+{
+    background: #27292e!important;  
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+.night .navbar-nav{
+    background: #35363b!important;
+}
+}
+
+
+.night nav.navbar-fixed .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+
+/* ========= Color 1 Styel start ============== */
+
+.c1 #testimonial .slick-arrow,
+.c1 .silder .owl-nav div,
+.c1 .portfolio-slide .owl-nav div,
+.c1 #about .video-content .overlay:after,
+.c1 #testimonial .slick-arrow,
+.c1 .social-link a i
+{
+    border: 2px solid #e83b35;
+
+}
+
+.c1 .theme-form-one input:focus,
+.c1 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #e83b35;  
+}
+.c1 .modal a,
+.c1 .navbar-nav li a:hover,
+.c1 nav.navbar-fixed .navbar-nav li a:hover,
+.c1 .navbar-nav li a.active,
+.c1 nav.navbar-fixed .navbar-nav li a.active,
+.c1 nav.navbar-fixed .navbar-brand,
+.c1 .videoBox,
+.c1 #service .s-item a:hover,
+.c1 #service .modal .list i,
+.c1 .protfolio-filter li:hover,
+.c1 .protfolio-filter li.active,
+.c1 .portfolio-description>h4 a:hover,
+.c1 .portfolio-category a:hover,
+.c1 #testimonial .star-icon>i,
+.c1 #testimonial .slick-arrow i,
+.c1 .blog_box  h3 a:hover,
+.c1 .blog_box  .extra a:hover,
+.c1 .blog_box  .extra a:hover i,
+.c1 .theme-footer-one a:hover,
+.c1 .theme-footer-one .bottom-footer ul li a:hover,
+.c1 .social-link a i,
+.c1 .sidebar .archives-widget ul li a:hover,
+.c1 .sidebar .meta-widget ul li a:hover,
+.c1 .blogs .blog-box .blog-details .meta li a:hover,
+.c1 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #e83b35;
+}
+
+
+.c1 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c1 .slide-btn a,
+.c1 .silder .owl-nav div:hover,
+.c1 .portfolio-slide .owl-nav div:hover,
+.c1 .related-port .owl-nav div:hover,
+.c1 .my_btn,
+.c1 .theme_buttonA:before,
+.c1 .theme_buttonA:after,
+.c1 .theme_buttonA:hover:after,
+.c1 #service .modal-footer a,
+.c1 #testimonial .slick-arrow:hover,
+.c1 #team .team_slider_item_info ul li a i:hover,
+.c1 .blog_box .topImages .tag,
+.c1 .social-link a i:hover,
+.c1 .back-top-btn,
+.c1 .comments-form .btn-default:hover,
+.c1 .sidebar .categories-widget ul li a span,
+.c1 .sidebar .search-form .btn,
+.c1 .sidebar .search-form .btn:focus,
+.c1 .sidebar .categories-widget ul li a:hover,
+.c1 .sidebar .tags-widget ul li a:hover ,
+.c1 .comments-form .btn-default
+{
+    background: #e83b35;
+}
+
+.c1 #team .team_slider_item_info ul li a i:hover,
+.c1 .social-link a i:hover
+{
+    border-color: #e83b35;
+    color: #fff;
+}
+
+.c1 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #e83b35, #e83b35);
+    border-image: -moz-linear-gradient(top, #e83b35, #e83b35);
+    border-image: -o-linear-gradient(top, #e83b35, #e83b35);
+    border-image: linear-gradient(top, #e83b35, #e83b35);
+}
+.c1 #pricing .card:after
+{
+    background: #e83b35;
+    background: -webkit-linear-gradient(top, #e83b35, #e83b35);
+    background: -moz-linear-gradient(top, #e83b35, #e83b35);
+    background: -o-linear-gradient(top, #e83b35, #e83b35);
+    background: linear-gradient(top, #e83b35, #e83b35);
+}
+
+/* ========= Color 1 Styel End ============== */
+
+
+
+/* ========= Color 2 Styel start ============== */
+
+.c2 #testimonial .slick-arrow,
+.c2 .silder .owl-nav div,
+.c2 .portfolio-slide .owl-nav div,
+.c2 #about .video-content .overlay:after,
+.c2 #testimonial .slick-arrow,
+.c2 .social-link a i
+{
+    border: 2px solid #673bb7;
+
+}
+
+.c2 .theme-form-one input:focus,
+.c2 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #673bb7;  
+}
+.c2 .modal a,
+.c2 .navbar-nav li a:hover,
+.c2 nav.navbar-fixed .navbar-nav li a:hover,
+.c2 .navbar-nav li a.active,
+.c2 nav.navbar-fixed .navbar-nav li a.active,
+.c2 nav.navbar-fixed .navbar-brand,
+.c2 .videoBox,
+.c2 #service .s-item a:hover,
+.c2 #service .modal .list i,
+.c2 .protfolio-filter li:hover,
+.c2 .protfolio-filter li.active,
+.c2 .portfolio-description>h4 a:hover,
+.c2 .portfolio-category a:hover,
+.c2 #testimonial .star-icon>i,
+.c2 #testimonial .slick-arrow i,
+.c2 .blog_box  h3 a:hover,
+.c2 .blog_box  .extra a:hover,
+.c2 .blog_box  .extra a:hover i,
+.c2 .theme-footer-one a:hover,
+.c2 .theme-footer-one .bottom-footer ul li a:hover,
+.c2 .social-link a i,
+.c2 .sidebar .archives-widget ul li a:hover,
+.c2 .sidebar .meta-widget ul li a:hover,
+.c2 .blogs .blog-box .blog-details .meta li a:hover,
+.c2 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #673bb7;
+}
+
+
+.c2 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c2 .slide-btn a,
+.c2 .silder .owl-nav div:hover,
+.c2 .portfolio-slide .owl-nav div:hover,
+.c2 .related-port .owl-nav div:hover,
+.c2 .my_btn,
+.c2 .theme_buttonA:before,
+.c2 .theme_buttonA:after,
+.c2 .theme_buttonA:hover:after,
+.c2 #service .modal-footer a,
+.c2 #testimonial .slick-arrow:hover,
+.c2 #team .team_slider_item_info ul li a i:hover,
+.c2 .blog_box .topImages .tag,
+.c2 .social-link a i:hover,
+.c2 .back-top-btn,
+.c2 .comments-form .btn-default:hover,
+.c2 .sidebar .categories-widget ul li a span,
+.c2 .sidebar .search-form .btn,
+.c2 .sidebar .search-form .btn:focus,
+.c2 .sidebar .categories-widget ul li a:hover,
+.c2 .sidebar .tags-widget ul li a:hover ,
+.c2 .comments-form .btn-default
+{
+    background: #673bb7;
+}
+
+.c2 #team .team_slider_item_info ul li a i:hover,
+.c2 .social-link a i:hover
+{
+    border-color: #673bb7;
+    color: #fff;
+}
+
+.c2 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #673bb7, #673bb7);
+    border-image: -moz-linear-gradient(top, #673bb7, #673bb7);
+    border-image: -o-linear-gradient(top, #673bb7, #673bb7);
+    border-image: linear-gradient(top, #673bb7, #673bb7);
+}
+.c2 #pricing .card:after
+{
+    background: #673bb7;
+    background: -webkit-linear-gradient(top, #673bb7, #673bb7);
+    background: -moz-linear-gradient(top, #673bb7, #673bb7);
+    background: -o-linear-gradient(top, #673bb7, #673bb7);
+    background: linear-gradient(top, #673bb7, #673bb7);
+}
+
+/* ========= Color 2 Styel End ============== */
+
+
+
+/* ========= Color 3 Styel start ============== */
+
+.c3 #testimonial .slick-arrow,
+.c3 .silder .owl-nav div,
+.c3 .portfolio-slide .owl-nav div,
+.c3 #about .video-content .overlay:after,
+.c3 #testimonial .slick-arrow,
+.c3 .social-link a i
+{
+    border: 2px solid #ff9801;
+
+}
+
+.c3 .theme-form-one input:focus,
+.c3 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #ff9801;  
+}
+.c3 .modal a,
+.c3 .navbar-nav li a:hover,
+.c3 nav.navbar-fixed .navbar-nav li a:hover,
+.c3 .navbar-nav li a.active,
+.c3 nav.navbar-fixed .navbar-nav li a.active,
+.c3 nav.navbar-fixed .navbar-brand,
+.c3 .videoBox,
+.c3 #service .s-item a:hover,
+.c3 #service .modal .list i,
+.c3 .protfolio-filter li:hover,
+.c3 .protfolio-filter li.active,
+.c3 .portfolio-description>h4 a:hover,
+.c3 .portfolio-category a:hover,
+.c3 #testimonial .star-icon>i,
+.c3 #testimonial .slick-arrow i,
+.c3 .blog_box  h3 a:hover,
+.c3 .blog_box  .extra a:hover,
+.c3 .blog_box  .extra a:hover i,
+.c3 .theme-footer-one a:hover,
+.c3 .theme-footer-one .bottom-footer ul li a:hover,
+.c3 .social-link a i,
+.c3 .sidebar .archives-widget ul li a:hover,
+.c3 .sidebar .meta-widget ul li a:hover,
+.c3 .blogs .blog-box .blog-details .meta li a:hover,
+.c3 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #ff9801;
+}
+
+
+.c3 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c3 .slide-btn a,
+.c3 .silder .owl-nav div:hover,
+.c3 .portfolio-slide .owl-nav div:hover,
+.c3 .related-port .owl-nav div:hover,
+.c3 .my_btn,
+.c3 .theme_buttonA:before,
+.c3 .theme_buttonA:after,
+.c3 .theme_buttonA:hover:after,
+.c3 #service .modal-footer a,
+.c3 #testimonial .slick-arrow:hover,
+.c3 #team .team_slider_item_info ul li a i:hover,
+.c3 .blog_box .topImages .tag,
+.c3 .social-link a i:hover,
+.c3 .back-top-btn,
+.c3 .comments-form .btn-default:hover,
+.c3 .sidebar .categories-widget ul li a span,
+.c3 .sidebar .search-form .btn,
+.c3 .sidebar .search-form .btn:focus,
+.c3 .sidebar .categories-widget ul li a:hover,
+.c3 .sidebar .tags-widget ul li a:hover ,
+.c3 .comments-form .btn-default
+{
+    background: #ff9801;
+}
+
+.c3 #team .team_slider_item_info ul li a i:hover,
+.c3 .social-link a i:hover
+{
+    border-color: #ff9801;
+    color: #fff;
+}
+
+.c3 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #ff9801, #ff9801);
+    border-image: -moz-linear-gradient(top, #ff9801, #ff9801);
+    border-image: -o-linear-gradient(top, #ff9801, #ff9801);
+    border-image: linear-gradient(top, #ff9801, #ff9801);
+}
+.c3 #pricing .card:after
+{
+    background: #ff9801;
+    background: -webkit-linear-gradient(top, #ff9801, #ff9801);
+    background: -moz-linear-gradient(top, #ff9801, #ff9801);
+    background: -o-linear-gradient(top, #ff9801, #ff9801);
+    background: linear-gradient(top, #ff9801, #ff9801);
+}acba2f
+
+/* ========= Color 3 Styel End ============== */
+
+
+
+/* ========= Color 4 Styel start ============== */
+
+.c4 #testimonial .slick-arrow,
+.c4 .silder .owl-nav div,
+.c4 .portfolio-slide .owl-nav div,
+.c4 #about .video-content .overlay:after,
+.c4 #testimonial .slick-arrow,
+.c4 .social-link a i
+{
+    border: 2px solid #ff9801;
+
+}
+
+.c4 .theme-form-one input:focus,
+.c4 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #ff9801;  
+}
+.c4 .modal a,
+.c4 .navbar-nav li a:hover,
+.c4 nav.navbar-fixed .navbar-nav li a:hover,
+.c4 .navbar-nav li a.active,
+.c4 nav.navbar-fixed .navbar-nav li a.active,
+.c4 nav.navbar-fixed .navbar-brand,
+.c4 .videoBox,
+.c4 #service .s-item a:hover,
+.c4 #service .modal .list i,
+.c4 .protfolio-filter li:hover,
+.c4 .protfolio-filter li.active,
+.c4 .portfolio-description>h4 a:hover,
+.c4 .portfolio-category a:hover,
+.c4 #testimonial .star-icon>i,
+.c4 #testimonial .slick-arrow i,
+.c4 .blog_box  h3 a:hover,
+.c4 .blog_box  .extra a:hover,
+.c4 .blog_box  .extra a:hover i,
+.c4 .theme-footer-one a:hover,
+.c4 .theme-footer-one .bottom-footer ul li a:hover,
+.c4 .social-link a i,
+.c4 .sidebar .archives-widget ul li a:hover,
+.c4 .sidebar .meta-widget ul li a:hover,
+.c4 .blogs .blog-box .blog-details .meta li a:hover,
+.c4 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #ff9801;
+}
+
+
+.c4 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c4 .slide-btn a,
+.c4 .silder .owl-nav div:hover,
+.c4 .portfolio-slide .owl-nav div:hover,
+.c4 .related-port .owl-nav div:hover,
+.c4 .my_btn,
+.c4 .theme_buttonA:before,
+.c4 .theme_buttonA:after,
+.c4 .theme_buttonA:hover:after,
+.c4 #service .modal-footer a,
+.c4 #testimonial .slick-arrow:hover,
+.c4 #team .team_slider_item_info ul li a i:hover,
+.c4 .blog_box .topImages .tag,
+.c4 .social-link a i:hover,
+.c4 .back-top-btn,
+.c4 .comments-form .btn-default:hover,
+.c4 .sidebar .categories-widget ul li a span,
+.c4 .sidebar .search-form .btn,
+.c4 .sidebar .search-form .btn:focus,
+.c4 .sidebar .categories-widget ul li a:hover,
+.c4 .sidebar .tags-widget ul li a:hover ,
+.c4 .comments-form .btn-default
+{
+    background: #ff9801;
+}
+
+.c4 #team .team_slider_item_info ul li a i:hover,
+.c4 .social-link a i:hover
+{
+    border-color: #ff9801;
+    color: #fff;
+}
+
+.c4 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #ff9801, #ff9801);
+    border-image: -moz-linear-gradient(top, #ff9801, #ff9801);
+    border-image: -o-linear-gradient(top, #ff9801, #ff9801);
+    border-image: linear-gradient(top, #ff9801, #ff9801);
+}
+.c4 #pricing .card:after
+{
+    background: #ff9801;
+    background: -webkit-linear-gradient(top, #ff9801, #ff9801);
+    background: -moz-linear-gradient(top, #ff9801, #ff9801);
+    background: -o-linear-gradient(top, #ff9801, #ff9801);
+    background: linear-gradient(top, #ff9801, #ff9801);
+}
+
+/* ========= Color 4 Styel End ============== */
+
+
+
+/* ========= Color 5 Styel start ============== */
+
+.c5 #testimonial .slick-arrow,
+.c5 .silder .owl-nav div,
+.c5 .portfolio-slide .owl-nav div,
+.c5 #about .video-content .overlay:after,
+.c5 #testimonial .slick-arrow,
+.c5 .social-link a i
+{
+    border: 2px solid #ec407a;
+
+}
+
+.c5 .theme-form-one input:focus,
+.c5 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #ec407a;  
+}
+.c5 .modal a,
+.c5 .navbar-nav li a:hover,
+.c5 nav.navbar-fixed .navbar-nav li a:hover,
+.c5 .navbar-nav li a.active,
+.c5 nav.navbar-fixed .navbar-nav li a.active,
+.c5 nav.navbar-fixed .navbar-brand,
+.c5 .videoBox,
+.c5 #service .s-item a:hover,
+.c5 #service .modal .list i,
+.c5 .protfolio-filter li:hover,
+.c5 .protfolio-filter li.active,
+.c5 .portfolio-description>h4 a:hover,
+.c5 .portfolio-category a:hover,
+.c5 #testimonial .star-icon>i,
+.c5 #testimonial .slick-arrow i,
+.c5 .blog_box  h3 a:hover,
+.c5 .blog_box  .extra a:hover,
+.c5 .blog_box  .extra a:hover i,
+.c5 .theme-footer-one a:hover,
+.c5 .theme-footer-one .bottom-footer ul li a:hover,
+.c5 .social-link a i,
+.c5 .sidebar .archives-widget ul li a:hover,
+.c5 .sidebar .meta-widget ul li a:hover,
+.c5 .blogs .blog-box .blog-details .meta li a:hover,
+.c5 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #ec407a;
+}
+
+
+.c5 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c5 .slide-btn a,
+.c5 .silder .owl-nav div:hover,
+.c5 .portfolio-slide .owl-nav div:hover,
+.c5 .related-port .owl-nav div:hover,
+.c5 .my_btn,
+.c5 .theme_buttonA:before,
+.c5 .theme_buttonA:after,
+.c5 .theme_buttonA:hover:after,
+.c5 #service .modal-footer a,
+.c5 #testimonial .slick-arrow:hover,
+.c5 #team .team_slider_item_info ul li a i:hover,
+.c5 .blog_box .topImages .tag,
+.c5 .social-link a i:hover,
+.c5 .back-top-btn,
+.c5 .comments-form .btn-default:hover,
+.c5 .sidebar .categories-widget ul li a span,
+.c5 .sidebar .search-form .btn,
+.c5 .sidebar .search-form .btn:focus,
+.c5 .sidebar .categories-widget ul li a:hover,
+.c5 .sidebar .tags-widget ul li a:hover ,
+.c5 .comments-form .btn-default
+{
+    background: #ec407a;
+}
+
+.c5 #team .team_slider_item_info ul li a i:hover,
+.c5 .social-link a i:hover
+{
+    border-color: #ec407a;
+    color: #fff;
+}
+
+.c5 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #ec407a, #ec407a);
+    border-image: -moz-linear-gradient(top, #ec407a, #ec407a);
+    border-image: -o-linear-gradient(top, #ec407a, #ec407a);
+    border-image: linear-gradient(top, #ec407a, #ec407a);
+}
+.c5 #pricing .card:after
+{
+    background: #ec407a;
+    background: -webkit-linear-gradient(top, #ec407a, #ec407a);
+    background: -moz-linear-gradient(top, #ec407a, #ec407a);
+    background: -o-linear-gradient(top, #ec407a, #ec407a);
+    background: linear-gradient(top, #ec407a, #ec407a);
+}
+
+/* ========= Color 5 Styel End ============== */
+
+
+
+/* ========= Color 6 Styel start ============== */
+
+.c6 #testimonial .slick-arrow,
+.c6 .silder .owl-nav div,
+.c6 .portfolio-slide .owl-nav div,
+.c6 #about .video-content .overlay:after,
+.c6 #testimonial .slick-arrow,
+.c6 .social-link a i
+{
+    border: 2px solid #228B22;
+
+}
+
+.c6 .theme-form-one input:focus,
+.c6 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #228B22;  
+}
+.c6 .modal a,
+.c6 .navbar-nav li a:hover,
+.c6 nav.navbar-fixed .navbar-nav li a:hover,
+.c6 .navbar-nav li a.active,
+.c6 nav.navbar-fixed .navbar-nav li a.active,
+.c6 nav.navbar-fixed .navbar-brand,
+.c6 .videoBox,
+.c6 #service .s-item a:hover,
+.c6 #service .modal .list i,
+.c6 .protfolio-filter li:hover,
+.c6 .protfolio-filter li.active,
+.c6 .portfolio-description>h4 a:hover,
+.c6 .portfolio-category a:hover,
+.c6 #testimonial .star-icon>i,
+.c6 #testimonial .slick-arrow i,
+.c6 .blog_box  h3 a:hover,
+.c6 .blog_box  .extra a:hover,
+.c6 .blog_box  .extra a:hover i,
+.c6 .theme-footer-one a:hover,
+.c6 .theme-footer-one .bottom-footer ul li a:hover,
+.c6 .social-link a i,
+.c6 .sidebar .archives-widget ul li a:hover,
+.c6 .sidebar .meta-widget ul li a:hover,
+.c6 .blogs .blog-box .blog-details .meta li a:hover,
+.c6 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #228B22;
+}
+
+
+.c6 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c6 .slide-btn a,
+.c6 .silder .owl-nav div:hover,
+.c6 .portfolio-slide .owl-nav div:hover,
+.c6 .related-port .owl-nav div:hover,
+.c6 .my_btn,
+.c6 .theme_buttonA:before,
+.c6 .theme_buttonA:after,
+.c6 .theme_buttonA:hover:after,
+.c6 #service .modal-footer a,
+.c6 #testimonial .slick-arrow:hover,
+.c6 #team .team_slider_item_info ul li a i:hover,
+.c6 .blog_box .topImages .tag,
+.c6 .social-link a i:hover,
+.c6 .back-top-btn,
+.c6 .comments-form .btn-default:hover,
+.c6 .sidebar .categories-widget ul li a span,
+.c6 .sidebar .search-form .btn,
+.c6 .sidebar .search-form .btn:focus,
+.c6 .sidebar .categories-widget ul li a:hover,
+.c6 .sidebar .tags-widget ul li a:hover ,
+.c6 .comments-form .btn-default
+{
+    background: #228B22;
+}
+
+.c6 #team .team_slider_item_info ul li a i:hover,
+.c6 .social-link a i:hover
+{
+    border-color: #228B22;
+    color: #fff;
+}
+
+.c6 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #228B22, #228B22);
+    border-image: -moz-linear-gradient(top, #228B22, #228B22);
+    border-image: -o-linear-gradient(top, #228B22, #228B22);
+    border-image: linear-gradient(top, #228B22, #228B22);
+}
+.c6 #pricing .card:after
+{
+    background: #228B22;
+    background: -webkit-linear-gradient(top, #228B22, #228B22);
+    background: -moz-linear-gradient(top, #228B22, #228B22);
+    background: -o-linear-gradient(top, #228B22, #228B22);
+    background: linear-gradient(top, #228B22, #228B22);
+}
+
+/* ========= Color 6 Styel End ============== */
+
+
+
+/* ========= Color 7 Styel start ============== */
+
+.c7 #testimonial .slick-arrow,
+.c7 .silder .owl-nav div,
+.c7 .portfolio-slide .owl-nav div,
+.c7 #about .video-content .overlay:after,
+.c7 #testimonial .slick-arrow,
+.c7 .social-link a i
+{
+    border: 2px solid #e8676b;
+
+}
+
+.c7 .theme-form-one input:focus,
+.c7 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #e8676b;  
+}
+.c7 .modal a,
+.c7 .navbar-nav li a:hover,
+.c7 nav.navbar-fixed .navbar-nav li a:hover,
+.c7 .navbar-nav li a.active,
+.c7 nav.navbar-fixed .navbar-nav li a.active,
+.c7 nav.navbar-fixed .navbar-brand,
+.c7 .videoBox,
+.c7 #service .s-item a:hover,
+.c7 #service .modal .list i,
+.c7 .protfolio-filter li:hover,
+.c7 .protfolio-filter li.active,
+.c7 .portfolio-description>h4 a:hover,
+.c7 .portfolio-category a:hover,
+.c7 #testimonial .star-icon>i,
+.c7 #testimonial .slick-arrow i,
+.c7 .blog_box  h3 a:hover,
+.c7 .blog_box  .extra a:hover,
+.c7 .blog_box  .extra a:hover i,
+.c7 .theme-footer-one a:hover,
+.c7 .theme-footer-one .bottom-footer ul li a:hover,
+.c7 .social-link a i,
+.c7 .sidebar .archives-widget ul li a:hover,
+.c7 .sidebar .meta-widget ul li a:hover,
+.c7 .blogs .blog-box .blog-details .meta li a:hover,
+.c7 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #e8676b;
+}
+
+
+.c7 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c7 .slide-btn a,
+.c7 .silder .owl-nav div:hover,
+.c7 .portfolio-slide .owl-nav div:hover,
+.c7 .related-port .owl-nav div:hover,
+.c7 .my_btn,
+.c7 .theme_buttonA:before,
+.c7 .theme_buttonA:after,
+.c7 .theme_buttonA:hover:after,
+.c7 #service .modal-footer a,
+.c7 #testimonial .slick-arrow:hover,
+.c7 #team .team_slider_item_info ul li a i:hover,
+.c7 .blog_box .topImages .tag,
+.c7 .social-link a i:hover,
+.c7 .back-top-btn,
+.c7 .comments-form .btn-default:hover,
+.c7 .sidebar .categories-widget ul li a span,
+.c7 .sidebar .search-form .btn,
+.c7 .sidebar .search-form .btn:focus,
+.c7 .sidebar .categories-widget ul li a:hover,
+.c7 .sidebar .tags-widget ul li a:hover ,
+.c7 .comments-form .btn-default
+{
+    background: #e8676b;
+}
+
+.c7 #team .team_slider_item_info ul li a i:hover,
+.c7 .social-link a i:hover
+{
+    border-color: #e8676b;
+    color: #fff;
+}
+
+.c7 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #e8676b, #e8676b);
+    border-image: -moz-linear-gradient(top, #e8676b, #e8676b);
+    border-image: -o-linear-gradient(top, #e8676b, #e8676b);
+    border-image: linear-gradient(top, #e8676b, #e8676b);
+}
+.c7 #pricing .card:after
+{
+    background: #e8676b;
+    background: -webkit-linear-gradient(top, #e8676b, #e8676b);
+    background: -moz-linear-gradient(top, #e8676b, #e8676b);
+    background: -o-linear-gradient(top, #e8676b, #e8676b);
+    background: linear-gradient(top, #e8676b, #e8676b);
+}
+
+/* ========= Color 7 Styel End ============== */
+
+
+
+/* ========= Color 8 Styel start ============== */
+
+.c8 #testimonial .slick-arrow,
+.c8 .silder .owl-nav div,
+.c8 .portfolio-slide .owl-nav div,
+.c8 #about .video-content .overlay:after,
+.c8 #testimonial .slick-arrow,
+.c8 .social-link a i
+{
+    border: 2px solid #2391ff;
+
+}
+
+.c8 .theme-form-one input:focus,
+.c8 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #2391ff;  
+}
+.c8 .modal a,
+.c8 .navbar-nav li a:hover,
+.c8 nav.navbar-fixed .navbar-nav li a:hover,
+.c8 .navbar-nav li a.active,
+.c8 nav.navbar-fixed .navbar-nav li a.active,
+.c8 nav.navbar-fixed .navbar-brand,
+.c8 .videoBox,
+.c8 #service .s-item a:hover,
+.c8 #service .modal .list i,
+.c8 .protfolio-filter li:hover,
+.c8 .protfolio-filter li.active,
+.c8 .portfolio-description>h4 a:hover,
+.c8 .portfolio-category a:hover,
+.c8 #testimonial .star-icon>i,
+.c8 #testimonial .slick-arrow i,
+.c8 .blog_box  h3 a:hover,
+.c8 .blog_box  .extra a:hover,
+.c8 .blog_box  .extra a:hover i,
+.c8 .theme-footer-one a:hover,
+.c8 .theme-footer-one .bottom-footer ul li a:hover,
+.c8 .social-link a i,
+.c8 .sidebar .archives-widget ul li a:hover,
+.c8 .sidebar .meta-widget ul li a:hover,
+.c8 .blogs .blog-box .blog-details .meta li a:hover,
+.c8 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #2391ff;
+}
+
+
+.c8 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c8 .slide-btn a,
+.c8 .silder .owl-nav div:hover,
+.c8 .portfolio-slide .owl-nav div:hover,
+.c8 .related-port .owl-nav div:hover,
+.c8 .my_btn,
+.c8 .theme_buttonA:before,
+.c8 .theme_buttonA:after,
+.c8 .theme_buttonA:hover:after,
+.c8 #service .modal-footer a,
+.c8 #testimonial .slick-arrow:hover,
+.c8 #team .team_slider_item_info ul li a i:hover,
+.c8 .blog_box .topImages .tag,
+.c8 .social-link a i:hover,
+.c8 .back-top-btn,
+.c8 .comments-form .btn-default:hover,
+.c8 .sidebar .categories-widget ul li a span,
+.c8 .sidebar .search-form .btn,
+.c8 .sidebar .search-form .btn:focus,
+.c8 .sidebar .categories-widget ul li a:hover,
+.c8 .sidebar .tags-widget ul li a:hover ,
+.c8 .comments-form .btn-default
+{
+    background: #2391ff;
+}
+
+.c8 #team .team_slider_item_info ul li a i:hover,
+.c8 .social-link a i:hover
+{
+    border-color: #2391ff;
+    color: #fff;
+}
+
+.c8 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #2391ff, #2391ff);
+    border-image: -moz-linear-gradient(top, #2391ff, #2391ff);
+    border-image: -o-linear-gradient(top, #2391ff, #2391ff);
+    border-image: linear-gradient(top, #2391ff, #2391ff);
+}
+.c8 #pricing .card:after
+{
+    background: #2391ff;
+    background: -webkit-linear-gradient(top, #2391ff, #2391ff);
+    background: -moz-linear-gradient(top, #2391ff, #2391ff);
+    background: -o-linear-gradient(top, #2391ff, #2391ff);
+    background: linear-gradient(top, #2391ff, #2391ff);
+}
+
+/* ========= Color 8 Styel End ============== */
+
+
+
+/* ========= Color 9 Styel start ============== */
+
+.c9 #testimonial .slick-arrow,
+.c9 .silder .owl-nav div,
+.c9 .portfolio-slide .owl-nav div,
+.c9 #about .video-content .overlay:after,
+.c9 #testimonial .slick-arrow,
+.c9 .social-link a i
+{
+    border: 2px solid #7b276f;
+
+}
+
+.c9 .theme-form-one input:focus,
+.c9 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #7b276f;  
+}
+.c9 .modal a,
+.c9 .navbar-nav li a:hover,
+.c9 nav.navbar-fixed .navbar-nav li a:hover,
+.c9 .navbar-nav li a.active,
+.c9 nav.navbar-fixed .navbar-nav li a.active,
+.c9 nav.navbar-fixed .navbar-brand,
+.c9 .videoBox,
+.c9 #service .s-item a:hover,
+.c9 #service .modal .list i,
+.c9 .protfolio-filter li:hover,
+.c9 .protfolio-filter li.active,
+.c9 .portfolio-description>h4 a:hover,
+.c9 .portfolio-category a:hover,
+.c9 #testimonial .star-icon>i,
+.c9 #testimonial .slick-arrow i,
+.c9 .blog_box  h3 a:hover,
+.c9 .blog_box  .extra a:hover,
+.c9 .blog_box  .extra a:hover i,
+.c9 .theme-footer-one a:hover,
+.c9 .theme-footer-one .bottom-footer ul li a:hover,
+.c9 .social-link a i,
+.c9 .sidebar .archives-widget ul li a:hover,
+.c9 .sidebar .meta-widget ul li a:hover,
+.c9 .blogs .blog-box .blog-details .meta li a:hover,
+.c9 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #7b276f;
+}
+
+
+.c9 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c9 .slide-btn a,
+.c9 .silder .owl-nav div:hover,
+.c9 .portfolio-slide .owl-nav div:hover,
+.c9 .related-port .owl-nav div:hover,
+.c9 .my_btn,
+.c9 .theme_buttonA:before,
+.c9 .theme_buttonA:after,
+.c9 .theme_buttonA:hover:after,
+.c9 #service .modal-footer a,
+.c9 #testimonial .slick-arrow:hover,
+.c9 #team .team_slider_item_info ul li a i:hover,
+.c9 .blog_box .topImages .tag,
+.c9 .social-link a i:hover,
+.c9 .back-top-btn,
+.c9 .comments-form .btn-default:hover,
+.c9 .sidebar .categories-widget ul li a span,
+.c9 .sidebar .search-form .btn,
+.c9 .sidebar .search-form .btn:focus,
+.c9 .sidebar .categories-widget ul li a:hover,
+.c9 .sidebar .tags-widget ul li a:hover ,
+.c9 .comments-form .btn-default
+{
+    background: #7b276f;
+}
+
+.c9 #team .team_slider_item_info ul li a i:hover,
+.c9 .social-link a i:hover
+{
+    border-color: #7b276f;
+    color: #fff;
+}
+
+.c9 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #7b276f, #7b276f);
+    border-image: -moz-linear-gradient(top, #7b276f, #7b276f);
+    border-image: -o-linear-gradient(top, #7b276f, #7b276f);
+    border-image: linear-gradient(top, #7b276f, #7b276f);
+}
+.c9 #pricing .card:after
+{
+    background: #7b276f;
+    background: -webkit-linear-gradient(top, #7b276f, #7b276f);
+    background: -moz-linear-gradient(top, #7b276f, #7b276f);
+    background: -o-linear-gradient(top, #7b276f, #7b276f);
+    background: linear-gradient(top, #7b276f, #7b276f);
+}
+
+/* ========= Color 9 Styel End ============== */
+
+
+
+/* ========= Color 10 Styel start ============== */
+
+.c10 #testimonial .slick-arrow,
+.c10 .silder .owl-nav div,
+.c10 .portfolio-slide .owl-nav div,
+.c10 #about .video-content .overlay:after,
+.c10 #testimonial .slick-arrow,
+.c10 .social-link a i
+{
+    border: 2px solid #1f9e75;
+
+}
+
+.c10 .theme-form-one input:focus,
+.c10 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #1f9e75;  
+}
+.c10 .modal a,
+.c10 .navbar-nav li a:hover,
+.c10 nav.navbar-fixed .navbar-nav li a:hover,
+.c10 .navbar-nav li a.active,
+.c10 nav.navbar-fixed .navbar-nav li a.active,
+.c10 nav.navbar-fixed .navbar-brand,
+.c10 .videoBox,
+.c10 #service .s-item a:hover,
+.c10 #service .modal .list i,
+.c10 .protfolio-filter li:hover,
+.c10 .protfolio-filter li.active,
+.c10 .portfolio-description>h4 a:hover,
+.c10 .portfolio-category a:hover,
+.c10 #testimonial .star-icon>i,
+.c10 #testimonial .slick-arrow i,
+.c10 .blog_box  h3 a:hover,
+.c10 .blog_box  .extra a:hover,
+.c10 .blog_box  .extra a:hover i,
+.c10 .theme-footer-one a:hover,
+.c10 .theme-footer-one .bottom-footer ul li a:hover,
+.c10 .social-link a i,
+.c10 .sidebar .archives-widget ul li a:hover,
+.c10 .sidebar .meta-widget ul li a:hover,
+.c10 .blogs .blog-box .blog-details .meta li a:hover,
+.c10 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #1f9e75;
+}
+
+
+.c10 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c10 .slide-btn a,
+.c10 .silder .owl-nav div:hover,
+.c10 .portfolio-slide .owl-nav div:hover,
+.c10 .related-port .owl-nav div:hover,
+.c10 .my_btn,
+.c10 .theme_buttonA:before,
+.c10 .theme_buttonA:after,
+.c10 .theme_buttonA:hover:after,
+.c10 #service .modal-footer a,
+.c10 #testimonial .slick-arrow:hover,
+.c10 #team .team_slider_item_info ul li a i:hover,
+.c10 .blog_box .topImages .tag,
+.c10 .social-link a i:hover,
+.c10 .back-top-btn,
+.c10 .comments-form .btn-default:hover,
+.c10 .sidebar .categories-widget ul li a span,
+.c10 .sidebar .search-form .btn,
+.c10 .sidebar .search-form .btn:focus,
+.c10 .sidebar .categories-widget ul li a:hover,
+.c10 .sidebar .tags-widget ul li a:hover ,
+.c10 .comments-form .btn-default
+{
+    background: #1f9e75;
+}
+
+.c10 #team .team_slider_item_info ul li a i:hover,
+.c10 .social-link a i:hover
+{
+    border-color: #1f9e75;
+    color: #fff;
+}
+
+.c10 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #1f9e75, #1f9e75);
+    border-image: -moz-linear-gradient(top, #1f9e75, #1f9e75);
+    border-image: -o-linear-gradient(top, #1f9e75, #1f9e75);
+    border-image: linear-gradient(top, #1f9e75, #1f9e75);
+}
+.c10 #pricing .card:after
+{
+    background: #1f9e75;
+    background: -webkit-linear-gradient(top, #1f9e75, #1f9e75);
+    background: -moz-linear-gradient(top, #1f9e75, #1f9e75);
+    background: -o-linear-gradient(top, #1f9e75, #1f9e75);
+    background: linear-gradient(top, #1f9e75, #1f9e75);
+}
+
+/* ========= Color 10 Styel End ============== */
+
+
+
+/* ========= Color 11 Styel start ============== */
+
+.c11 #testimonial .slick-arrow,
+.c11 .silder .owl-nav div,
+.c11 .portfolio-slide .owl-nav div,
+.c11 #about .video-content .overlay:after,
+.c11 #testimonial .slick-arrow,
+.c11 .social-link a i
+{
+    border: 2px solid #27a79a;
+
+}
+
+.c11 .theme-form-one input:focus,
+.c11 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #27a79a;  
+}
+.c11 .modal a,
+.c11 .navbar-nav li a:hover,
+.c11 nav.navbar-fixed .navbar-nav li a:hover,
+.c11 .navbar-nav li a.active,
+.c11 nav.navbar-fixed .navbar-nav li a.active,
+.c11 nav.navbar-fixed .navbar-brand,
+.c11 .videoBox,
+.c11 #service .s-item a:hover,
+.c11 #service .modal .list i,
+.c11 .protfolio-filter li:hover,
+.c11 .protfolio-filter li.active,
+.c11 .portfolio-description>h4 a:hover,
+.c11 .portfolio-category a:hover,
+.c11 #testimonial .star-icon>i,
+.c11 #testimonial .slick-arrow i,
+.c11 .blog_box  h3 a:hover,
+.c11 .blog_box  .extra a:hover,
+.c11 .blog_box  .extra a:hover i,
+.c11 .theme-footer-one a:hover,
+.c11 .theme-footer-one .bottom-footer ul li a:hover,
+.c11 .social-link a i,
+.c11 .sidebar .archives-widget ul li a:hover,
+.c11 .sidebar .meta-widget ul li a:hover,
+.c11 .blogs .blog-box .blog-details .meta li a:hover,
+.c11 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #27a79a;
+}
+
+
+.c11 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c11 .slide-btn a,
+.c11 .silder .owl-nav div:hover,
+.c11 .portfolio-slide .owl-nav div:hover,
+.c11 .related-port .owl-nav div:hover,
+.c11 .my_btn,
+.c11 .theme_buttonA:before,
+.c11 .theme_buttonA:after,
+.c11 .theme_buttonA:hover:after,
+.c11 #service .modal-footer a,
+.c11 #testimonial .slick-arrow:hover,
+.c11 #team .team_slider_item_info ul li a i:hover,
+.c11 .blog_box .topImages .tag,
+.c11 .social-link a i:hover,
+.c11 .back-top-btn,
+.c11 .comments-form .btn-default:hover,
+.c11 .sidebar .categories-widget ul li a span,
+.c11 .sidebar .search-form .btn,
+.c11 .sidebar .search-form .btn:focus,
+.c11 .sidebar .categories-widget ul li a:hover,
+.c11 .sidebar .tags-widget ul li a:hover ,
+.c11 .comments-form .btn-default
+{
+    background: #27a79a;
+}
+
+.c11 #team .team_slider_item_info ul li a i:hover,
+.c11 .social-link a i:hover
+{
+    border-color: #27a79a;
+    color: #fff;
+}
+
+.c11 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #27a79a, #27a79a);
+    border-image: -moz-linear-gradient(top, #27a79a, #27a79a);
+    border-image: -o-linear-gradient(top, #27a79a, #27a79a);
+    border-image: linear-gradient(top, #27a79a, #27a79a);
+}
+.c11 #pricing .card:after
+{
+    background: #27a79a;
+    background: -webkit-linear-gradient(top, #27a79a, #27a79a);
+    background: -moz-linear-gradient(top, #27a79a, #27a79a);
+    background: -o-linear-gradient(top, #27a79a, #27a79a);
+    background: linear-gradient(top, #27a79a, #27a79a);
+}
+
+/* ========= Color 11 Styel End ============== */
+
+
+
+/* ========= Color 12 Styel start ============== */
+
+.c12 #testimonial .slick-arrow,
+.c12 .silder .owl-nav div,
+.c12 .portfolio-slide .owl-nav div,
+.c12 #about .video-content .overlay:after,
+.c12 #testimonial .slick-arrow,
+.c12 .social-link a i
+{
+    border: 2px solid #8dc24c;
+
+}
+
+.c12 .theme-form-one input:focus,
+.c12 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #8dc24c;  
+}
+.c12 .modal a,
+.c12 .navbar-nav li a:hover,
+.c12 nav.navbar-fixed .navbar-nav li a:hover,
+.c12 .navbar-nav li a.active,
+.c12 nav.navbar-fixed .navbar-nav li a.active,
+.c12 nav.navbar-fixed .navbar-brand,
+.c12 .videoBox,
+.c12 #service .s-item a:hover,
+.c12 #service .modal .list i,
+.c12 .protfolio-filter li:hover,
+.c12 .protfolio-filter li.active,
+.c12 .portfolio-description>h4 a:hover,
+.c12 .portfolio-category a:hover,
+.c12 #testimonial .star-icon>i,
+.c12 #testimonial .slick-arrow i,
+.c12 .blog_box  h3 a:hover,
+.c12 .blog_box  .extra a:hover,
+.c12 .blog_box  .extra a:hover i,
+.c12 .theme-footer-one a:hover,
+.c12 .theme-footer-one .bottom-footer ul li a:hover,
+.c12 .social-link a i,
+.c12 .sidebar .archives-widget ul li a:hover,
+.c12 .sidebar .meta-widget ul li a:hover,
+.c12 .blogs .blog-box .blog-details .meta li a:hover,
+.c12 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #8dc24c;
+}
+
+
+.c12 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c12 .slide-btn a,
+.c12 .silder .owl-nav div:hover,
+.c12 .portfolio-slide .owl-nav div:hover,
+.c12 .related-port .owl-nav div:hover,
+.c12 .my_btn,
+.c12 .theme_buttonA:before,
+.c12 .theme_buttonA:after,
+.c12 .theme_buttonA:hover:after,
+.c12 #service .modal-footer a,
+.c12 #testimonial .slick-arrow:hover,
+.c12 #team .team_slider_item_info ul li a i:hover,
+.c12 .blog_box .topImages .tag,
+.c12 .social-link a i:hover,
+.c12 .back-top-btn,
+.c12 .comments-form .btn-default:hover,
+.c12 .sidebar .categories-widget ul li a span,
+.c12 .sidebar .search-form .btn,
+.c12 .sidebar .search-form .btn:focus,
+.c12 .sidebar .categories-widget ul li a:hover,
+.c12 .sidebar .tags-widget ul li a:hover ,
+.c12 .comments-form .btn-default
+{
+    background: #8dc24c;
+}
+
+.c12 #team .team_slider_item_info ul li a i:hover,
+.c12 .social-link a i:hover
+{
+    border-color: #8dc24c;
+    color: #fff;
+}
+
+.c12 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #8dc24c, #8dc24c);
+    border-image: -moz-linear-gradient(top, #8dc24c, #8dc24c);
+    border-image: -o-linear-gradient(top, #8dc24c, #8dc24c);
+    border-image: linear-gradient(top, #8dc24c, #8dc24c);
+}
+.c12 #pricing .card:after
+{
+    background: #8dc24c;
+    background: -webkit-linear-gradient(top, #8dc24c, #8dc24c);
+    background: -moz-linear-gradient(top, #8dc24c, #8dc24c);
+    background: -o-linear-gradient(top, #8dc24c, #8dc24c);
+    background: linear-gradient(top, #8dc24c, #8dc24c);
+}
+
+/* ========= Color 12 Styel End ============== */
+
+
+
+/* ========= Color 13 Styel start ============== */
+
+.c13 #testimonial .slick-arrow,
+.c13 .silder .owl-nav div,
+.c13 .portfolio-slide .owl-nav div,
+.c13 #about .video-content .overlay:after,
+.c13 #testimonial .slick-arrow,
+.c13 .social-link a i
+{
+    border: 2px solid #07cb79;
+
+}
+
+.c13 .theme-form-one input:focus,
+.c13 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #07cb79;  
+}
+.c13 .modal a,
+.c13 .navbar-nav li a:hover,
+.c13 nav.navbar-fixed .navbar-nav li a:hover,
+.c13 .navbar-nav li a.active,
+.c13 nav.navbar-fixed .navbar-nav li a.active,
+.c13 nav.navbar-fixed .navbar-brand,
+.c13 .videoBox,
+.c13 #service .s-item a:hover,
+.c13 #service .modal .list i,
+.c13 .protfolio-filter li:hover,
+.c13 .protfolio-filter li.active,
+.c13 .portfolio-description>h4 a:hover,
+.c13 .portfolio-category a:hover,
+.c13 #testimonial .star-icon>i,
+.c13 #testimonial .slick-arrow i,
+.c13 .blog_box  h3 a:hover,
+.c13 .blog_box  .extra a:hover,
+.c13 .blog_box  .extra a:hover i,
+.c13 .theme-footer-one a:hover,
+.c13 .theme-footer-one .bottom-footer ul li a:hover,
+.c13 .social-link a i,
+.c13 .sidebar .archives-widget ul li a:hover,
+.c13 .sidebar .meta-widget ul li a:hover,
+.c13 .blogs .blog-box .blog-details .meta li a:hover,
+.c13 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #07cb79;
+}
+
+
+.c13 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c13 .slide-btn a,
+.c13 .silder .owl-nav div:hover,
+.c13 .portfolio-slide .owl-nav div:hover,
+.c13 .related-port .owl-nav div:hover,
+.c13 .my_btn,
+.c13 .theme_buttonA:before,
+.c13 .theme_buttonA:after,
+.c13 .theme_buttonA:hover:after,
+.c13 #service .modal-footer a,
+.c13 #testimonial .slick-arrow:hover,
+.c13 #team .team_slider_item_info ul li a i:hover,
+.c13 .blog_box .topImages .tag,
+.c13 .social-link a i:hover,
+.c13 .back-top-btn,
+.c13 .comments-form .btn-default:hover,
+.c13 .sidebar .categories-widget ul li a span,
+.c13 .sidebar .search-form .btn,
+.c13 .sidebar .search-form .btn:focus,
+.c13 .sidebar .categories-widget ul li a:hover,
+.c13 .sidebar .tags-widget ul li a:hover ,
+.c13 .comments-form .btn-default
+{
+    background: #07cb79;
+}
+
+.c13 #team .team_slider_item_info ul li a i:hover,
+.c13 .social-link a i:hover
+{
+    border-color: #07cb79;
+    color: #fff;
+}
+
+.c13 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #07cb79, #07cb79);
+    border-image: -moz-linear-gradient(top, #07cb79, #07cb79);
+    border-image: -o-linear-gradient(top, #07cb79, #07cb79);
+    border-image: linear-gradient(top, #07cb79, #07cb79);
+}
+.c13 #pricing .card:after
+{
+    background: #07cb79;
+    background: -webkit-linear-gradient(top, #07cb79, #07cb79);
+    background: -moz-linear-gradient(top, #07cb79, #07cb79);
+    background: -o-linear-gradient(top, #07cb79, #07cb79);
+    background: linear-gradient(top, #07cb79, #07cb79);
+}
+
+/* ========= Color 13 Styel End ============== */
+
+
+
+/* ========= Color 14 Styel start ============== */
+
+.c14 #testimonial .slick-arrow,
+.c14 .silder .owl-nav div,
+.c14 .portfolio-slide .owl-nav div,
+.c14 #about .video-content .overlay:after,
+.c14 #testimonial .slick-arrow,
+.c14 .social-link a i
+{
+    border: 2px solid #815166;
+
+}
+
+.c14 .theme-form-one input:focus,
+.c14 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #815166;  
+}
+.c14 .modal a,
+.c14 .navbar-nav li a:hover,
+.c14 nav.navbar-fixed .navbar-nav li a:hover,
+.c14 .navbar-nav li a.active,
+.c14 nav.navbar-fixed .navbar-nav li a.active,
+.c14 nav.navbar-fixed .navbar-brand,
+.c14 .videoBox,
+.c14 #service .s-item a:hover,
+.c14 #service .modal .list i,
+.c14 .protfolio-filter li:hover,
+.c14 .protfolio-filter li.active,
+.c14 .portfolio-description>h4 a:hover,
+.c14 .portfolio-category a:hover,
+.c14 #testimonial .star-icon>i,
+.c14 #testimonial .slick-arrow i,
+.c14 .blog_box  h3 a:hover,
+.c14 .blog_box  .extra a:hover,
+.c14 .blog_box  .extra a:hover i,
+.c14 .theme-footer-one a:hover,
+.c14 .theme-footer-one .bottom-footer ul li a:hover,
+.c14 .social-link a i,
+.c14 .sidebar .archives-widget ul li a:hover,
+.c14 .sidebar .meta-widget ul li a:hover,
+.c14 .blogs .blog-box .blog-details .meta li a:hover,
+.c14 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #815166;
+}
+
+
+.c14 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c14 .slide-btn a,
+.c14 .silder .owl-nav div:hover,
+.c14 .portfolio-slide .owl-nav div:hover,
+.c14 .related-port .owl-nav div:hover,
+.c14 .my_btn,
+.c14 .theme_buttonA:before,
+.c14 .theme_buttonA:after,
+.c14 .theme_buttonA:hover:after,
+.c14 #service .modal-footer a,
+.c14 #testimonial .slick-arrow:hover,
+.c14 #team .team_slider_item_info ul li a i:hover,
+.c14 .blog_box .topImages .tag,
+.c14 .social-link a i:hover,
+.c14 .back-top-btn,
+.c14 .comments-form .btn-default:hover,
+.c14 .sidebar .categories-widget ul li a span,
+.c14 .sidebar .search-form .btn,
+.c14 .sidebar .search-form .btn:focus,
+.c14 .sidebar .categories-widget ul li a:hover,
+.c14 .sidebar .tags-widget ul li a:hover ,
+.c14 .comments-form .btn-default
+{
+    background: #815166;
+}
+
+.c14 #team .team_slider_item_info ul li a i:hover,
+.c14 .social-link a i:hover
+{
+    border-color: #815166;
+    color: #fff;
+}
+
+.c14 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #815166, #815166);
+    border-image: -moz-linear-gradient(top, #815166, #815166);
+    border-image: -o-linear-gradient(top, #815166, #815166);
+    border-image: linear-gradient(top, #815166, #815166);
+}
+.c14 #pricing .card:after
+{
+    background: #815166;
+    background: -webkit-linear-gradient(top, #815166, #815166);
+    background: -moz-linear-gradient(top, #815166, #815166);
+    background: -o-linear-gradient(top, #815166, #815166);
+    background: linear-gradient(top, #815166, #815166);
+}
+
+/* ========= Color 14 Styel End ============== */
+
+
+
+/* ========= Color 15 Styel start ============== */
+
+.c15 #testimonial .slick-arrow,
+.c15 .silder .owl-nav div,
+.c15 .portfolio-slide .owl-nav div,
+.c15 #about .video-content .overlay:after,
+.c15 #testimonial .slick-arrow,
+.c15 .social-link a i
+{
+    border: 2px solid #9c27b0;
+
+}
+
+.c15 .theme-form-one input:focus,
+.c15 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #9c27b0;  
+}
+.c15 .modal a,
+.c15 .navbar-nav li a:hover,
+.c15 nav.navbar-fixed .navbar-nav li a:hover,
+.c15 .navbar-nav li a.active,
+.c15 nav.navbar-fixed .navbar-nav li a.active,
+.c15 nav.navbar-fixed .navbar-brand,
+.c15 .videoBox,
+.c15 #service .s-item a:hover,
+.c15 #service .modal .list i,
+.c15 .protfolio-filter li:hover,
+.c15 .protfolio-filter li.active,
+.c15 .portfolio-description>h4 a:hover,
+.c15 .portfolio-category a:hover,
+.c15 #testimonial .star-icon>i,
+.c15 #testimonial .slick-arrow i,
+.c15 .blog_box  h3 a:hover,
+.c15 .blog_box  .extra a:hover,
+.c15 .blog_box  .extra a:hover i,
+.c15 .theme-footer-one a:hover,
+.c15 .theme-footer-one .bottom-footer ul li a:hover,
+.c15 .social-link a i,
+.c15 .sidebar .archives-widget ul li a:hover,
+.c15 .sidebar .meta-widget ul li a:hover,
+.c15 .blogs .blog-box .blog-details .meta li a:hover,
+.c15 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #9c27b0;
+}
+
+
+.c15 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c15 .slide-btn a,
+.c15 .silder .owl-nav div:hover,
+.c15 .portfolio-slide .owl-nav div:hover,
+.c15 .related-port .owl-nav div:hover,
+.c15 .my_btn,
+.c15 .theme_buttonA:before,
+.c15 .theme_buttonA:after,
+.c15 .theme_buttonA:hover:after,
+.c15 #service .modal-footer a,
+.c15 #testimonial .slick-arrow:hover,
+.c15 #team .team_slider_item_info ul li a i:hover,
+.c15 .blog_box .topImages .tag,
+.c15 .social-link a i:hover,
+.c15 .back-top-btn,
+.c15 .comments-form .btn-default:hover,
+.c15 .sidebar .categories-widget ul li a span,
+.c15 .sidebar .search-form .btn,
+.c15 .sidebar .search-form .btn:focus,
+.c15 .sidebar .categories-widget ul li a:hover,
+.c15 .sidebar .tags-widget ul li a:hover ,
+.c15 .comments-form .btn-default
+{
+    background: #9c27b0;
+}
+
+.c15 #team .team_slider_item_info ul li a i:hover,
+.c15 .social-link a i:hover
+{
+    border-color: #9c27b0;
+    color: #fff;
+}
+
+.c15 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #9c27b0, #9c27b0);
+    border-image: -moz-linear-gradient(top, #9c27b0, #9c27b0);
+    border-image: -o-linear-gradient(top, #9c27b0, #9c27b0);
+    border-image: linear-gradient(top, #9c27b0, #9c27b0);
+}
+.c15 #pricing .card:after
+{
+    background: #9c27b0;
+    background: -webkit-linear-gradient(top, #9c27b0, #9c27b0);
+    background: -moz-linear-gradient(top, #9c27b0, #9c27b0);
+    background: -o-linear-gradient(top, #9c27b0, #9c27b0);
+    background: linear-gradient(top, #9c27b0, #9c27b0);
+}
+
+/* ========= Color 15 Styel End ============== */
+
+
+
+/* ========= Color 16 Styel start ============== */
+
+.c16 #testimonial .slick-arrow,
+.c16 .silder .owl-nav div,
+.c16 .portfolio-slide .owl-nav div,
+.c16 #about .video-content .overlay:after,
+.c16 #testimonial .slick-arrow,
+.c16 .social-link a i
+{
+    border: 2px solid #d99b3f;
+
+}
+
+.c16 .theme-form-one input:focus,
+.c16 .theme-form-one textarea:focus
+{
+    border-bottom: 1px solid #d99b3f;  
+}
+.c16 .modal a,
+.c16 .navbar-nav li a:hover,
+.c16 nav.navbar-fixed .navbar-nav li a:hover,
+.c16 .navbar-nav li a.active,
+.c16 nav.navbar-fixed .navbar-nav li a.active,
+.c16 nav.navbar-fixed .navbar-brand,
+.c16 .videoBox,
+.c16 #service .s-item a:hover,
+.c16 #service .modal .list i,
+.c16 .protfolio-filter li:hover,
+.c16 .protfolio-filter li.active,
+.c16 .portfolio-description>h4 a:hover,
+.c16 .portfolio-category a:hover,
+.c16 #testimonial .star-icon>i,
+.c16 #testimonial .slick-arrow i,
+.c16 .blog_box  h3 a:hover,
+.c16 .blog_box  .extra a:hover,
+.c16 .blog_box  .extra a:hover i,
+.c16 .theme-footer-one a:hover,
+.c16 .theme-footer-one .bottom-footer ul li a:hover,
+.c16 .social-link a i,
+.c16 .sidebar .archives-widget ul li a:hover,
+.c16 .sidebar .meta-widget ul li a:hover,
+.c16 .blogs .blog-box .blog-details .meta li a:hover,
+.c16 .sidebar .recent-posts-widget .recent-post-description h3 a:hover
+
+{
+    color: #d99b3f;
+}
+
+
+.c16 .navbar-nav .dropdown-menu .dropdown-item:hover,
+.c16 .slide-btn a,
+.c16 .silder .owl-nav div:hover,
+.c16 .portfolio-slide .owl-nav div:hover,
+.c16 .related-port .owl-nav div:hover,
+.c16 .my_btn,
+.c16 .theme_buttonA:before,
+.c16 .theme_buttonA:after,
+.c16 .theme_buttonA:hover:after,
+.c16 #service .modal-footer a,
+.c16 #testimonial .slick-arrow:hover,
+.c16 #team .team_slider_item_info ul li a i:hover,
+.c16 .blog_box .topImages .tag,
+.c16 .social-link a i:hover,
+.c16 .back-top-btn,
+.c16 .comments-form .btn-default:hover,
+.c16 .sidebar .categories-widget ul li a span,
+.c16 .sidebar .search-form .btn,
+.c16 .sidebar .search-form .btn:focus,
+.c16 .sidebar .categories-widget ul li a:hover,
+.c16 .sidebar .tags-widget ul li a:hover ,
+.c16 .comments-form .btn-default
+{
+    background: #d99b3f;
+}
+
+.c16 #team .team_slider_item_info ul li a i:hover,
+.c16 .social-link a i:hover
+{
+    border-color: #d99b3f;
+    color: #fff;
+}
+
+.c16 #pricing .card
+ {
+    border-bottom: 5px solid transparent;
+    border-image: -webkit-linear-gradient(top, #d99b3f, #d99b3f);
+    border-image: -moz-linear-gradient(top, #d99b3f, #d99b3f);
+    border-image: -o-linear-gradient(top, #d99b3f, #d99b3f);
+    border-image: linear-gradient(top, #d99b3f, #d99b3f);
+}
+.c16 #pricing .card:after
+{
+    background: #d99b3f;
+    background: -webkit-linear-gradient(top, #d99b3f, #d99b3f);
+    background: -moz-linear-gradient(top, #d99b3f, #d99b3f);
+    background: -o-linear-gradient(top, #d99b3f, #d99b3f);
+    background: linear-gradient(top, #d99b3f, #d99b3f);
+}
+
+/* ========= Color 1 Styel End ============== */
+
+.c1 .item-thumbnail .link,
+.c1 #team .team_slider_item .t-box
+{
+    background: rgba(232, 59, 53, 0.7)
+}
+.c2 .item-thumbnail .link,
+.c2 #team .team_slider_item .t-box 
+{
+    background: rgba(103, 59, 183, 0.7)
+}
+.c3 .item-thumbnail .link,
+.c3 #team .team_slider_item .t-box
+ {
+    background: rgba(255, 152, 1, 0.7)
+}
+.c4 .item-thumbnail .link,
+.c4 #team .team_slider_item .t-box 
+{
+    background: rgba(172, 186, 47, 0.7)
+}
+.c5 .item-thumbnail .link,
+.c5 #team .team_slider_item .t-box
+ {
+    background: rgba(236, 64, 122, 0.7)
+}
+.c6 .item-thumbnail .link,
+.c6 #team .team_slider_item .t-box 
+{
+    background: rgba(34, 139, 34, 0.7)
+}
+.c7 .item-thumbnail .link,
+.c7 #team .team_slider_item .t-box 
+{
+    background: rgba(232, 103, 107, 0.7)
+}
+.c8 .item-thumbnail .link,
+.c8 #team .team_slider_item .t-box
+{
+    background: rgba(35, 145, 255, 0.7)
+}
+.c9 .item-thumbnail .link,
+.c9 #team .team_slider_item .t-box
+{
+    background: rgba(123, 39, 111, 0.7)
+}
+.c10 .item-thumbnail .link,
+.c10 #team .team_slider_item .t-box 
+{
+    background: rgba(31, 158, 117, 0.7)
+}
+.c11 .item-thumbnail .link,
+.c11 #team .team_slider_item .t-box
+{
+    background: rgba(39, 167, 154, 0.7)
+}
+.c12 .item-thumbnail .link,
+.c12 #team .team_slider_item .t-box
+{
+    background: rgba(141, 194, 76, 0.7)
+}
+.c13 .item-thumbnail .link,
+.c13 #team .team_slider_item .t-box 
+{
+    background: rgba(7, 203, 121, 0.7)
+}
+.c14 .item-thumbnail .link,
+.c14 #team .team_slider_item .t-box 
+{
+    background: rgba(129, 81, 102, 0.7)
+}
+.c15 .item-thumbnail .link,
+.c15 #team .team_slider_item .t-box 
+{
+    background: rgba(156, 39, 176, 0.7)
+}
+.c16 .item-thumbnail .link,
+.c16 #team .team_slider_item .t-box 
+{
+    background:rgba(217, 155, 63, 0.7)
+}
